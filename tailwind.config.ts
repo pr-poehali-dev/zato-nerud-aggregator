@@ -7,6 +7,7 @@ export default {
 		"./components/**/*.{ts,tsx}",
 		"./app/**/*.{ts,tsx}",
 		"./src/**/*.{ts,tsx}",
+			"./1777290685622602541.html"
 	],
 	prefix: "",
 	theme: {
@@ -18,7 +19,15 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				display: ['Oswald', 'sans-serif'],
+				sans: ['IBM Plex Sans', 'sans-serif'],
+				mono: ['IBM Plex Mono', 'monospace'],
+			},
 			colors: {
+				navy: 'hsl(var(--navy))',
+				steel: 'hsl(var(--steel))',
+				amber: 'hsl(var(--amber))',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
